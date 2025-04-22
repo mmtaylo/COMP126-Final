@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    justify-self: center;
+    border: 1px solid red;
+    width: 65%;
+    height: 500px;
+}
