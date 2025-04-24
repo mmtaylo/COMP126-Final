@@ -7,7 +7,8 @@ body {
     flex-direction: column;
 }
 
-.newsletters {
+.image-container {
     display: flex;
-    flex-direction: column;
 }
+
+.submit
