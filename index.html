@@ -5,27 +5,66 @@
         <meta charset="utf-8">
         <title>COMP126-Final</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <!--images stuff-->
         <link rel="img" href="images/">
-        <link rel="stylesheet" href="main-styles.css">
-        <link rel="images" href="images">
+
+        <!--css styles stuff-->
+        <link rel="stylesheet" href="css/main-styles.css">
         <link rel="stylesheet" href="sarah_styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Delius&family=Delius+Swash+Caps&family=Gowun+Dodum&family=Kumar+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/megan-styles.css">
+
+        <!--font stuff-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Delius&family=Delius+Swash+Caps&family=Gowun+Dodum&family=Kumar+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        
+        <!--responsive nav stuff--> 
+        <link rel="stylesheet" href="responsive-nav/responsive-nav.css">
+        <script src="responsive-nav/responsive-nav.js"></script>
+        <script src="responsive-nav/responsive-nav.min.js"></script>
     </head>
 
     <body>
-        <nav>
-            <div class="nav-items">
+        <header>
+            <div class="icon-name">
                 <img src="images/tbs-bluewhitecrest.png" class="crest-img">
+                <p class="tbs-intro">Tau Beta Sigma<br>Iota Lambda</p>
             </div>
-        </nav>
+            <nav class="nav-collapse new-nav">
+                <ul>
+                  <li><a href="#">About TBS and IA</a></li>
+                  <li><a href="#">Three Pillars</a></li>
+                  <li><a href="#">Current Members</a></li>
+                  <li><a href="#">Executive Board</a></li>
+                  <li><a href="#">Newsletters</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
         <div class="main">
-            <p>meow</p>
+            <p>imagine this is sarah's welcome page</p>
         </div>
+
+        <script>
+            var navigation = responsiveNav(".nav-collapse", {
+              animate: true,                    // Boolean: Use CSS3 transitions, true or false
+              transition: 284,                  // Integer: Speed of the transition, in milliseconds
+              label: "Menu",                    // String: Label for the navigation toggle
+              insert: "after",                  // String: Insert the toggle before or after the navigation
+              customToggle: "",                 // Selector: Specify the ID of a custom toggle
+              closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+              openPos: "relative",              // String: Position of the opened nav, relative or static
+              navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
+              navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+              jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+              init: function(){},               // Function: Init callback
+              open: function(){},               // Function: Open callback
+              close: function(){}               // Function: Close callback
+            });
+        </script>
     </body>
     
 </html>
