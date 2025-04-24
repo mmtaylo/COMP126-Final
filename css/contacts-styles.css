@@ -6,3 +6,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.image-container {
+    display: flex;
+}
+
+.submit
