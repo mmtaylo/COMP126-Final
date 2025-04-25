@@ -65,6 +65,8 @@
 
 .small-pics {
     margin: 20px 0px;
+    width: 175px;
+    height: 150px;
 }
 
 .small-pics-caption {
@@ -74,22 +76,199 @@
 .symbols-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .about-tbs-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .about-tbs-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .about-tbs-3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .symbols-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .regular-crest {
+        height: 200px;
+        width: 200px;
+        margin: 0px 30px;
+        order: 2;
+    }
+    
+    .tbs-logo {
+        height: 100px;
+        width: 250px;
+        margin: 0px 30px;
+    }
+
+   .small-symbol-container {
+        display: flex;
+        flex-direction: column;
+   }
+
+   .small-pics {
+        margin: 15px 10px 25px 0px;
+    }
+
+    .align-header {
+        text-align: center;
+    }
+
+   .beta-pic {
+        height: 200px;
+        width: 300px;
+        margin: 0px 30px;    
+        order: 2; 
+    }
+
+    .wim-pic {
+        height: 200px;
+        width: 250px;
+        margin: 0px 30px; 
+    }
+
+    .about-main {
+        padding: 0px 20px;
+    }
+
+    .about-body-padding {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .about-body-padding {
+        padding: 0px 20px;
+        max-width: 450px;
+    }
+
+    .about-main {
+        padding: 0px 50px;
+    }
+
+    .regular-crest {
+        padding-left: 40px;
+    }
+
+    .tbs-logo {
+        height: 100px;
+        width: 250px;
+        margin: 0px 30px;
+        padding: 0px 40px 0px 20px;
+    }
+
+    .wim-pic {
+        height: 250px;
+        width: 300px;
+        margin: 0px 30px; 
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .about-main {
+        padding: 0px 80px;
+    }
 }
 
 /* about three pillars css*/
 
+.about-three-pillars-section {
+    display: flex;
+    flex-direction: column;
+}
+.about-three-pillars-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-three-pillars-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .about-three-pillars-h1 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .about-three-pillars-pics {
     margin: 20px 0px;
     height: 250px;
-    align-self: center;
+    width: 300px;
+    justify-self: center;
 }
 
-.about-three-pillars-section {
-    display: flex;
-    flex-direction: column;
+@media screen and (min-width: 800px) {
+    .about-three-pillars-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-three-pillars-section-1 {
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+
+    .about-three-pillars-section-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-three-pillars-section-body {
+        padding: 0px 20px;
+    }
+
+    .about-three-pillars-section-different-order {
+        order: 2;
+    }
+
+    .about-three-pillars-pics {
+        margin: 20px 0px;
+        height: 250px;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .about-three-pillars-h1 {
+        margin-bottom: 0px;
+    }
+    
+    .about-three-pillars-section {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .about-three-pillars-pics {
+        height: 250px;
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .about-three-pillars-section {
+        padding: 0px 80px;
+    }
 }

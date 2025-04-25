@@ -79,6 +79,7 @@
     border: 1px solid red;
     width: 75%;
     margin-top: 45px;
+    margin-bottom: 50px;
 }
 
 .center-header {
@@ -108,4 +109,8 @@ header {
     color: white;
     font-size: 18px;
     padding-left: 12px;
+}
+
+@media screen and (min-width: 800px) {
+  
 }
