@@ -8,6 +8,44 @@
 .grid-container-main {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 250px 
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 200px 350px 150px 100px;
+    grid-template-areas:
+        "title"
+        "figure"
+        "main"
+        "section"
+        "footer"
+}
+
+.title {
+    text-align: center;
+    grid-area: title;
+}
+
+figure {
+    grid-area: figure;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 800px) {
+    .grid-container-main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 350px 150px 100px;
+        grid-template-areas:
+            "title title"
+            "aside main"
+            "section section"
+            "footer footer"
+    }
+    
+    aside {
+        grid-area: aside;
+        width: 100%;
+        height: auto;
+    }
 }
