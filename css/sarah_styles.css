@@ -9,10 +9,10 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 200px 350px 150px 100px;
+    grid-template-rows: 100px 420px 510px 220px 100px;
     grid-template-areas:
         "title"
-        "figure"
+        "aside"
         "main"
         "section"
         "footer"
@@ -23,11 +23,31 @@
     grid-area: title;
 }
 
-figure {
-    grid-area: figure;
-    height: 100%;
-    width: auto;
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+    padding: 30px 0;
+}
+
+.l-aside {
+    width: 100%;
+    height: 420px;
     object-fit: cover;
+}
+
+section {
+    display: flex;
+    text-align: center;
+    grid-area: section;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+footer {
+    
 }
 
 @media screen and (min-width: 800px) {
@@ -35,7 +55,7 @@ figure {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 350px 150px 100px;
+        grid-template-rows: 100px 500px 150px 100px;
         grid-template-areas:
             "title title"
             "aside main"
@@ -45,7 +65,14 @@ figure {
     
     aside {
         grid-area: aside;
+        display: flex;
         width: 100%;
         height: auto;
+    }
+
+    .l-aside {
+        width: 80%;
+        height: 500px;
+        padding: 0 20px;
     }
 }
