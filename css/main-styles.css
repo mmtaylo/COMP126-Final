@@ -4,6 +4,8 @@
     font-family: 'Lato';
 }
 
+/* font stuff */
+
 .lato-thin {
     font-family: "Lato", sans-serif;
     font-weight: 100;
@@ -77,19 +79,20 @@
     font-weight: 400;
   }
 
+/* main container and nav stuff */
+
 .main {
-    display: flex;
-    justify-self: center;
-    flex-direction: column;
-    width: 75%;
-    margin-top: 45px;
-    margin-bottom: 50px;
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  width: 75%;
+  margin-top: 45px;
+  margin-bottom: 50px;
 }
 
 .center-header {
   text-align: center;
 }
-
 
 .crest-img {
   height: 70px;
@@ -115,6 +118,50 @@ header {
     padding-left: 12px;
 }
 
+footer {
+  margin: 0 auto;
+  background-color: #004990;
+  height: fit-content;
+  padding: 20px;
+  height: 80px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.footer-icons {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  background-color: #82A6C9;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 12px;
+}
+
 @media screen and (min-width: 800px) {
-  
+  .footer-text {
+    font-size: 15px;
+  }
+
+  .footer-icons {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+  }
 }
