@@ -71,12 +71,16 @@
     font-weight: lighter;
   }
 
+  p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
 .main {
     display: flex;
     justify-self: center;
     flex-direction: column;
-   
-    border: 1px solid red;
     width: 75%;
     margin-top: 45px;
     margin-bottom: 50px;

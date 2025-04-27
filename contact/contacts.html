@@ -19,33 +19,23 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Delius&family=Delius+Swash+Caps&family=Gowun+Dodum&family=Kumar+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-        
-        <!--responsive nav stuff--> 
-        <link rel="stylesheet" href="/responsive-nav/responsive-nav.css">
-        <script src="/responsive-nav/responsive-nav.js"></script>
-        <script src="/responsive-nav/responsive-nav.min.js"></script>
     </head>
 
     
     <body>
         <header>
             <div class="icon-name">
-                <img src="/images/tbs-bluewhitecrest.png" class="crest-img">
+                <img src="/images/tbs-bluewhitecrest.png" class="crest-img" alt="Tau Beta Sigma's Blue and White Crest">
                 <p class="tbs-intro">Tau Beta Sigma<br>Iota Lambda</p>
             </div>
-            <nav class="nav-collapse new-nav">
-                <ul>
-                  <li><a href="#">About TBS and IA</a></li>
-                  <li><a href="#">Three Pillars</a></li>
-                  <li><a href="#">Current Members</a></li>
-                  <li><a href="#">Executive Board</a></li>
-                  <li><a href="#">Newsletters</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
+            <nav>
+               
             </nav>
         </header>
 
-        <main>
+        <main class="page">
+        <div class="desktop-box-1">
+        <h1>Contact Us</h1>
         <form>
             <div class="inputs">
             <label for="name">Name</label><br>
@@ -62,13 +52,15 @@
             </div>
             <div class="inputs">
             <label for="comments">Comments</label><br>
-                <textarea id="comment" name="comment" rows="6"></textarea>
+                <textarea class="input-box" id="comment" name="comment" rows="6"></textarea>
             <br>
             </div>
             <button class='submit' type="submit">SUBMIT</button>
         </form>
+        </div>
 
-        <h1>Join our listserv</h1>
+        <div class="desktop-box-2">
+        <h1>Join Our Listserv</h1>
         <form>
             <div class="inputs">
             <label for="email">Email</label><br>
@@ -76,32 +68,17 @@
             </div>
                 <button class='submit' type="submit">SUBMIT</button>
         </form>
+        </div>
 
+        <div class="desktop-box-3">
         <h1>Follow Us!</h1>
         <div class="image-container">
-            <img class="image" src="/contact/contact-imgs/instagram.png" alt="instagram logo">
-            <img class="image" src="/contact/contact-imgs/gmail.png" alt="gmail logo">
-            <img class="image" src="/contact/contact-imgs/facebook.png" alt="facebook logo">
+            <a href="https://www.instagram.com/tbs_iotalambda/?hl=en"><img class="image" src="/contact/contact-imgs/instagram.png" alt="instagram logo"></a>
+            <a href="mailto:tbsiotalambda@gmail.com"><img class="image" src="/contact/contact-imgs/gmail.png" alt="gmail logo"></a>
+            <a href="https://www.facebook.com/IotaLambdaTBS/"><img class="image" src="/contact/contact-imgs/facebook.png" alt="facebook logo"></a>
+        </div>
         </div>
     </main>
-
-        <script>
-            var navigation = responsiveNav(".nav-collapse", {
-            animate: true,                    // Boolean: Use CSS3 transitions, true or false
-            transition: 284,                  // Integer: Speed of the transition, in milliseconds
-            label: "Menu",                    // String: Label for the navigation toggle
-            insert: "after",                  // String: Insert the toggle before or after the navigation
-            customToggle: "",                 // Selector: Specify the ID of a custom toggle
-            closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
-            openPos: "relative",              // String: Position of the opened nav, relative or static
-            navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
-            navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
-            jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
-            init: function(){},               // Function: Init callback
-            open: function(){},               // Function: Open callback
-            close: function(){}               // Function: Close callback
-            });
-        </script>
     </body>
 
 </html>
