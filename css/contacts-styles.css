@@ -10,6 +10,13 @@
 
 .input-box:hover, .input-box:focus {
     border: solid #004990;
+}
+
+.input-box {
+    width: 100%;
+}
+
+.inputs {
     width: 100%;
 }
 
@@ -36,17 +43,32 @@ h1 {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 0.5rem;
-    align-items: center;
     width: 100%;
 }
 
 main {
-    width: 75%;
-    margin: 0 auto;
     display: flex;
+    justify-self: center;
     flex-direction: column;
-    gap: 1.5rem;
+    width: 75%;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    gap: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10%;
+    }
+
+    .desktop-box-1 {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
 }
