@@ -1,3 +1,4 @@
+
 .image-container {
     display: flex;
     width: 100%;
@@ -49,18 +50,8 @@ form {
     width: 100%;
 }
 
-main {
-    display: flex;
-    justify-self: center;
-    flex-direction: column;
-    width: 75%;
-    margin-top: 45px;
-    margin-bottom: 50px;
-    gap: 0.5rem;
-}
-
 @media screen and (min-width: 768px) {
-    main {
+    .main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;

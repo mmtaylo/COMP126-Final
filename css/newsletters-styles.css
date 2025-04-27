@@ -1,25 +1,38 @@
-* {
-    margin: 0 auto;
+.main {
+    gap: 1rem;
 }
 
-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 5%;
+.listserv-link {
+    color: black;
+}
+
+.listserv {
+    text-align: center;
 }
 
 .newsletters {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 0.5rem;
 }
-
-.monthly {}
 
 .monthly-text {
     text-align: center;
 }
 
-aside {
-    text-align: center;
+.archive {
+    margin: 0 auto;
+}
+
+.fall-2024-box {
+    display: flex;
+    justify-content: center;
+    background-color: #004990;
+    border-radius: 0.5rem;
+    padding: 8px;
+}
+
+.fall-2024 {
+    color: white;
+    text-decoration: none;
 }
