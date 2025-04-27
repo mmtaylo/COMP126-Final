@@ -272,3 +272,173 @@
         padding: 0px 80px;
     }
 }
+
+/* memories css*/
+
+.memories-h1 {
+    margin-bottom: 15px;
+}
+
+.tab-container {
+   background-color: #f8f8f8;
+   border: 1px solid #f0f0f0;
+   border-top: none;
+}
+
+.memories-main-image {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-self: center;
+    margin: 30px 0px;
+}
+
+.tab {
+    background-color: #004990;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+  .tablinks {
+    font-size: 12px;
+    color: white;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 10px;
+  }
+  
+  .tab button:hover {
+    background-color: #82A6C9;
+  }
+  
+  .tab button.active {
+    background-color: #82A6C9;
+  }
+  
+  .tabcontent {
+    display: none;
+  }
+
+  .memories-pics {
+    height: 225px;
+    width: 275px;
+    margin: 40px 10px 10px 10px;
+  }
+
+  .memories-img-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .memories-img-caption p {
+    max-width: 225px;
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 950px) {
+    .tab-container {
+        display: flex;
+        flex-direction: row;
+
+        background-color: #f8f8f8;
+        border-top: 1px solid #f0f0f0;
+        border-left: none;
+    }
+
+    .tab {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        flex-shrink: 0;
+        justify-content: flex-start;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .tab button {
+        margin: 20px 0px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .tab button.active {
+        background-color: #82A6C9;
+    }
+
+    .memories-main-image {
+        width: 500px;
+        height: 355px;
+    }
+    
+    .tablinks {
+        font-size: 15px;
+        color: white;
+    }
+      
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        
+      }
+      
+      .tabcontent {
+        display: none;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .memories-pics {
+        height: 150px;
+        width: 175px;
+      }
+    
+      .memories-img-caption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .memories-img-caption p {
+        max-width: 225px;
+      }
+      
+      .separating-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        justify-content: center;
+      }
+
+      .tab-display-area {
+        flex: 1; 
+        display: flex;
+        justify-content: center; 
+        align-items: flex-start;
+        padding: 20px;
+        position: relative;
+      }
+
+  }
+
+  @media screen and (min-width: 1050px) {
+    .memories-img-caption p {
+        max-width: 220px;
+        font-size: 14px;
+      }
+    .memories-pics {
+        height: 200px;
+        width: 225px;
+      }
+  }
