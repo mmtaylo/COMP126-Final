@@ -143,22 +143,24 @@ footer {
 
 .icon-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 250px;
 }
 
 .footer-icons {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-  background-color: #82A6C9;
-  border-radius: 50%;
+  width: 30px;
+  height: 28px;
   margin: 10px;
 }
 
 .footer-text {
   color: white;
   font-size: 12px;
+}
+
+.icon-circle {
+  background-color: #82A6C9;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 800px) {
@@ -169,6 +171,5 @@ footer {
   .footer-icons {
     width: 40px;
     height: 40px;
-    padding: 12px;
   }
 }
