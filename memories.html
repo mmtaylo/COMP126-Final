@@ -19,6 +19,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Delius&family=Delius+Swash+Caps&family=Gowun+Dodum&family=Kumar+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         
+        <!--slideshow stuff-->
+        <script src="memories-slideshow.js"></script>
     </head>
 
     <body>
@@ -33,7 +35,154 @@
         </header>
 
         <div class="main">
-            <h1 class="center-header">Memories</h1>
+            <h1 class="center-header memories-h1">Memories</h1>
+            <div class="tab-container">
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Service')">Service</button>
+                    <button class="tablinks" onclick="openTab(event, 'Sisterhood')">Sisterhood</button>
+                    <button class="tablinks" onclick="openTab(event, 'Leadership')">Leadership</button>
+                    <button class="tablinks" onclick="openTab(event, '2024-2025')">2024-2025</button>
+                    <button class="tablinks" onclick="openTab(event, '2022-2023')">2022-2023</button>
+                </div>
+                <div class="tab-display-area">
+                    <div class="memories-main-image-container">
+                        <img src="images/IMG_3914.JPG" class="memories-main-image">
+                    </div>
+                </div>
+               
+
+                <div id="Service" class="tabcontent">
+                        <div class="separating-img">
+                            <div class="memories-img-caption">
+                                <img src="images/IMG_2347 1 (6).png" class="memories-pics">
+                                <p>2.17.25 Scouting for music white stripe event</p>
+                            </div>
+                            <div class="memories-img-caption">
+                                <img src="images/IMG_3518.jpeg" class="memories-pics">
+                                <p>2.14.25 Band office valentines heart attack!</p>
+                            </div>
+                        </div>
+                        <div class="separating-img">
+                            <div class="memories-img-caption">
+                                <img src="images/IMG_0993 1.png" class="memories-pics">
+                                <p>2.12.25 Women in Music Speaker green stripe event</p>
+                            </div>
+            
+                            <div class="memories-img-caption">
+                                <img src="images/IMG_9695.png" class="memories-pics">
+                                <p>11.13.24 Menstrual product drive </p>
+                            </div>
+                        </div>
+                </div>
+                  
+                  <div id="Sisterhood" class="tabcontent">
+                    <div class="separating-img">
+                        <div class="memories-img-caption">
+                            <img src="images/IMG_4971 1.png" class="memories-pics">
+                            <p>7.29.24 Pumpkin Carving with Goats</p>
+                        </div>
+                        
+                        <div class="memories-img-caption">
+                            <img src="images/new-dc.png" class="memories-pics">
+                            <p>10.17.24 Retreat to D.C.</p>
+                        </div>
+                    </div>
+
+                    <div class="separating-img">
+                        <div class="memories-img-caption">
+                            <img src="images/IMG_6128.jpg" class="memories-pics">
+                            <p>9.23.24 Floral Arrangement Event</p>
+                        </div>
+        
+                        <div class="memories-img-caption">
+                            <img src="images/inand.jpeg" class="memories-pics">
+                            <p>11.13.22 Sisters trying In-N-Out for the first time in San Diego!</p>
+                        </div>
+                    </div>
+                    
+                  </div>
+                  
+                  <div id="Leadership" class="tabcontent">
+                    <div class="separating-img">
+                        <div class="memories-img-caption">
+                            <img src="images/Screenshot 2025-04-26 150216.png" class="memories-pics">
+                            <p>3.21.25 District Convention with Awards</p>
+                        </div>
+                        
+                        <div class="memories-img-caption">
+                            <img src="images/Screenshot 2025-04-26 150233.png" class="memories-pics">
+                            <p>3.22.25 Sisters Running a Fundraiser at District Convention</p>
+                        </div>
+                    </div>
+                    
+                    <div class="separating-img">
+                        <div class="memories-img-caption">
+                            <img src="images/mewoe.jpg" class="memories-pics">
+                            <p>3.23.24 District Convention with Awards </p>
+                        </div>
+        
+                        <div class="memories-img-caption">
+                            <img src="images/merc.png" class="memories-pics">
+                            <p>3.25.23 Volunteering at AIA Championships</p>
+                        </div>
+                    </div>
+                   
+                  </div>
+    
+                  <div id="2024-2025" class="tabcontent">
+                    <div class="separating-img">
+                        <div class="memories-img-caption">
+                            <img src="images/gammer.jpeg" class="memories-pics">
+                            <p>11.23.24 Alpha Gamma line presentation</p>
+                        </div>
+        
+                        <div class="memories-img-caption">
+                            <img src="images/ab.png" class="memories-pics">
+                            <p>4.14.24 Alpha Beta Line Presentation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="separating-img">
+                        <div class="memories-img-caption">
+                            <img src="images/itb.jpg" class="memories-pics">
+                            <p>2.18.24 ITB Potluck and Game Night!</p>
+                        </div>
+        
+                        <div class="memories-img-caption">
+                            <img src="images/lip.jpg" class="memories-pics">
+                            <p>4.12.24 ITB lip synch battle</p>
+                        </div>
+                    </div>
+    
+                  </div>
+    
+                  <div id="2022-2023" class="tabcontent">
+                    <div class="separating-img">
+                        <div class="memories-img-caption">
+                            <img src="images/uni.png" class="memories-pics">
+                            <p>8.26.23 Uniform Distribution</p>
+                        </div>
+        
+                        <div class="memories-img-caption">
+                            <img src="images/ea.png" class="memories-pics">
+                            <p> 9.2.23 Meeting with Epsilon Alpha in Charlotte for the Dukes Mayo Classic</p>
+                        </div>
+                    </div>
+                    
+                    <div class="separating-img">
+                        <div class="memories-img-caption">
+                            <img src="images/sis.png" class="memories-pics">
+                            <p>11.19.23 Sistergiving and an Active Membership Workshop</p>
+                        </div>
+        
+                        <div class="memories-img-caption">
+                            <img src="images/conv.png" class="memories-pics">
+                            <p> 7.12.23 IL and MH at the 2023 National Convention in Orlando, Florida</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </body>
 </html>
