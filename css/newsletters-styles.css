@@ -69,10 +69,12 @@ h1 {
     .main-listserv {
         grid-area: listserv;
         padding-top: 20%;
+        z-index: 0;
     }
 
     .archive {
         grid-area: archive;
+        z-index: 0;
     }
 
     .main-newsletters {
