@@ -11,7 +11,7 @@
 
         <!--css styles stuff-->
         <link rel="stylesheet" href="css/main-styles.css">
-        <link rel="stylesheet" href="css/sarah_styles.css">
+        <link rel="stylesheet" href="css/newsletters-styles.css">
 
         <!--font stuff-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +46,7 @@
 
                     <li><a href="memories.html" class="nav-links">Memories</a></li>
 
-                    <li><a href="newsletters.html" class="nav-links">Newsletters</a></li>
+                    <li><a href="newsletters/newsletters.html" class="nav-links">Newsletters</a></li>
 
                     <li><a href="contacts.html" class="nav-links">Contact</a></li>
           
@@ -78,7 +78,7 @@
 
                     <li class="hideOnMobile"><a href="memories.html" class="nav-links">Memories</a></li>
 
-                    <li class="hideOnMobile"><a href="newsletters.html" class="nav-links">Newsletters</a></li>
+                    <li class="hideOnMobile"><a href="newsletters/newsletters.html" class="nav-links">Newsletters</a></li>
 
                     <li class="hideOnMobile"><a href="contacts.html" class="nav-links">Contact</a></li>
 
@@ -87,71 +87,83 @@
           
             </nav>
         </header>
-
-        <img src="images/BalconyThrowing.JPG" alt="Chapter Picture" class="nav-img"></img>
     
-        <div class="main">
-        <div class="grid-container-main">
-            <div class="title">
-                <h1>Sisters in Harmony</h1>
-            </div>
-            <aside>
-                <img src="images/well_thatjusthappened.JPG" alt="Old Well" class="l-aside"></img>
-            </aside>
-            <main>
-                <p>Welcome to the official website of "Da ILlest" Chapter of Tau Beta Sigma National Honorary Band Sorority at The University of North Carolina at Chapel Hill. We proudly serve the band, promote diversity and inclusion, and encourage music appreciation in the Chapel Hill community. To find out more about Tau Beta Sigma's purposes, its history, and our very own Iota Lambda chapter, please visit our "About" section!</p> <br>
-                <p>Under "Our Members" tab, we have posted up-to-date lists of all Iota Lambda members, our current active members, and the executive board. Our "Newsletter" tab has recent events, updated on a monthly basis!</p> <br>      
-                <p>You are welcome to contact us through the "Contact" page. Other websites related to Tau Beta Sigma and the Iota Lambda chapter are listed under "Related Websites." We hope you have a great day! </p>
-            </main>
-            <section>
-                <h1>"It is an honor to be selected to serve."</h1>
-            </section>
-            </div>
+    <div class="main main-page">
+
+    <div class="title-container">
+        <h1>Newsletters</h1>
+    </div>
+
+    <div class="box-1">
+    <div class="listserv main-listserv">
+        <h3>Want to stay updated on all things related to the Iota Lambda chapter?</h3>
+        <p>Sign up for our listserv <a class="listserv-link" href="contact/contacts.html">here</a> to receive the newsletter!</p>
+    </div>
+    </div>
+
+    <div class="main-newsletters">
+        <div class="separate">
+            <h2 class="monthly-text">January 2025</h2>
+            <embed src="newsletter-pdfs/'25 January Alumni Newsletter .pdf" type="application/pdf" height="500px" width="100%">
         </div>
+        <div class="separate">
+            <h2 class="monthly-text">February 2025</h2>
+            <embed src="newsletter-pdfs/'25 February Alumni Newsletter.pdf" type="application/pdf" height="500px" width="100%">
+        </div>
+    </div>
 
-        <footer>
-            <div class="footer-container">
-                <div class="icon-container">
-                    <a href="mailto:tbsiotalambda@gmail.com" class="icon-circle"><img src="images/mail.png" class="footer-icons"></a>
-                    <a href="https://www.instagram.com/tbs_iotalambda/" class="icon-circle"><img src="images/Group 3.png" class="footer-icons"></a>
-                    <a href="contacts.html" class="icon-circle"><img src="images/chat_bubble.png" class="footer-icons"></a>
-                </div>
-                <p class="footer-text">Iota Lambda, University of North Carolina at Chapel Hill</p>
+    <div class="box-1">
+    <div class="archive">
+        <h1>Archive</h1>
+        <div class="fall-2024-box">
+            <a class="fall-2024" href="fall_24_archive.html">Fall 2024</a>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="icon-container">
+                <a href="mailto:tbsiotalambda@gmail.com" class="icon-circle"><img src="images/mail.png" class="footer-icons"></a>
+                <a href="https://www.instagram.com/tbs_iotalambda/" class="icon-circle"><img src="images/Group 3.png" class="footer-icons"></a>
+                <a href="contacts.html" class="icon-circle"><img src="images/chat_bubble.png" class="footer-icons"></a>
             </div>
-        </footer>
+            <p class="footer-text">Iota Lambda, University of North Carolina at Chapel Hill</p>
+        </div>
+    </footer>
 
-        <script>
+    <script>
 
-            function showSidebar() {
-      
-                const sidebar = document.querySelector('.sidebar')
-      
-                sidebar.style.display = 'flex'
-      
-            }
-      
-            function hideSidebar() {
-      
-                const sidebar = document.querySelector('.sidebar')
-      
-                sidebar.style.display = 'none'
-      
-            }
+        function showSidebar() {
+  
+            const sidebar = document.querySelector('.sidebar')
+  
+            sidebar.style.display = 'flex'
+  
+        }
+  
+        function hideSidebar() {
+  
+            const sidebar = document.querySelector('.sidebar')
+  
+            sidebar.style.display = 'none'
+  
+        }
 
-            let subMenu1 = document.getElementById("subMenu1");
+        let subMenu1 = document.getElementById("subMenu1");
 
-            function toggleMenu1(){
-                subMenu1.classList.toggle("open-menu");
-            }
+        function toggleMenu1(){
+            subMenu1.classList.toggle("open-menu");
+        }
 
-            let subMenu2 = document.getElementById("subMenu2");
+        let subMenu2 = document.getElementById("subMenu2");
 
-            function toggleMenu2(){
-                subMenu2.classList.toggle("open-menu");
-            }
-      
-        </script>
+        function toggleMenu2(){
+            subMenu2.classList.toggle("open-menu");
+        }
+  
+    </script>
 
-    </body>
-    
-</html>
+</body>
+
