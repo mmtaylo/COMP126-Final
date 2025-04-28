@@ -38,14 +38,22 @@ h1 {
     padding: 8px;
 }
 
-.fall-2024 {
+.fall-2024-box:hover {
+    background-color: #82A6C9;
+}
+
+a:focus .fall-2024-box{
+    background-color: #82A6C9;
+}
+
+.fall-24 {
     color: white;
     text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
     .main-page {
-        width: 75%;
+        width: 100%;
         margin-top: 45px;
         margin-bottom: 100px;
         display: grid;
@@ -71,10 +79,12 @@ h1 {
     .main-listserv {
         grid-area: listserv;
         padding-top: 20%;
+        z-index: 0;
     }
 
     .archive {
         grid-area: archive;
+        z-index: 0;
     }
 
     .main-newsletters {

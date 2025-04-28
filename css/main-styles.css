@@ -88,7 +88,7 @@
 
 /* main container and nav stuff */
 
-.main {
+main {
   display: flex;
   justify-self: center;
   flex-direction: column;
@@ -162,6 +162,14 @@ footer {
 .icon-circle {
   background-color: #82A6C9;
   border-radius: 50%;
+}
+
+a:focus .footer-icons {
+  background-color: #004990;
+}
+
+a:hover .footer-icons {
+  background-color: #004990;
 }
 
 @media screen and (min-width: 800px) {

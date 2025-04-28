@@ -1,7 +1,16 @@
-.image-container {
-    display: flex;
+body {
+    height: 100%;
+}
+
+main {
+    gap: 3rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
     width: 100%;
-    justify-content: space-evenly;
 }
 
 .comment-submission {
@@ -22,7 +31,14 @@
 
 h1 {
     text-align: center;
-    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.first-last {
+    font-size: x-small;
 }
 
 .submit {
@@ -31,34 +47,42 @@ h1 {
     color: white;
     border-radius: 0.5rem;
     padding: 8px;
+    border: none;
 }
 
-.submit:hover {
+.submit:hover, .submit:focus {
     background-color: #82A6C9;
-    color: black;
 }
 
-.first-last {
-    font-size: x-small;
-}
-
-form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+.image-container {
+    display: flex;
     width: 100%;
+    justify-content: space-evenly;
+}
+
+.image:hover {
+    border: 1px solid #004990;
+}
+
+a:focus .image{
+    border: 1px solid #004990;
 }
 
 @media screen and (min-width: 768px) {
-    .main {
+    main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 0.25fr 1fr 1fr;
         gap: 10%;
+    }
+
+    .title {
+        grid-column: 1/3;
+        grid-row: 1/2;
     }
 
     .desktop-box-1 {
         grid-column: 1/2;
-        grid-row: 1/3;
+        grid-row: 2/3;
     }
 }
