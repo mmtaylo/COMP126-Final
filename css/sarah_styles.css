@@ -21,6 +21,7 @@
 .title {
     text-align: center;
     grid-area: title;
+    margin-top: 0;
 }
 
 aside {
@@ -33,9 +34,10 @@ aside {
     object-fit: cover;
 }
 
-main {
+.main {
     grid-area: main;
-    padding: 60px 0;
+    align-items: center;
+    padding: 50px 0;
 }
 
 section {
@@ -72,13 +74,52 @@ section {
         padding: 0 20px;
     }
 
-    main {
+    .main {
         grid-area: main;
-        padding: 50px 20px 0 0;
+        padding: 0 20px 0 0;
         align-items: center;
+        justify-content: center;
     }
 
     section {
-        margin: 100px 0;
+        margin: 190px 0;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .grid-container-main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 500px 150px 100px;
+        grid-template-areas:
+            "title title"
+            "aside main"
+            "section section"
+            "footer footer"
+    }
+    
+    aside {
+        grid-area: aside;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .l-aside {
+        width: 80%;
+        height: 500px;
+        padding: 0 20px;
+    }
+
+    .main {
+        grid-area: main;
+        padding: 0 20px 0 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section {
+        margin: 150px 0;
     }
 }
