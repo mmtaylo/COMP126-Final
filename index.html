@@ -28,7 +28,63 @@
                 <p class="tbs-intro">Tau Beta Sigma<br>Iota Lambda</p>
             </div>
             <nav>
-               
+
+                <ul class="sidebar">
+                    <div class="nav-icons">
+                        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    </div>
+          
+                    <li><a href="index.html" class="nav-links">Home</a></li>
+          
+                    <li><a href="about-tbs.html" class="nav-links">About TBS and IL</a></li>
+
+                    <li><a href="about-three-pillars.html" class="nav-links">Three Pillars</a></li>
+          
+                    <li><a href="members/members_current.html" class="nav-links">Current Members</a></li>
+
+                    <li><a href="members/members_exec.html" class="nav-links">Exec Board</a></li>
+
+                    <li><a href="memories.html" class="nav-links">Memories</a></li>
+
+                    <li><a href="newsletters/newsletters.html" class="nav-links">Newsletters</a></li>
+
+                    <li><a href="contacts.html" class="nav-links">Contact</a></li>
+          
+                </ul>
+          
+                <ul>
+                    <li class="hideOnMobile"><a href="index.html" class="nav-links">Home</a></li>
+                    
+                    <li class="hideOnMobile"><a href="#" class="nav-links" onclick="toggleMenu1()">About</a></li>
+                
+                    <div class="sub-menu-wrap1" id="subMenu1">
+                        <div class="sub-menu">
+                            <div class="about-members-menu">
+                                <a href="about-tbs.html">About TBS and IL</a>
+                                <a href="about-three-pillars.html">Three Pillars</a>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="hideOnMobile"><a href="#" class="nav-links" onclick="toggleMenu2()">Members</a></li>
+
+                    <div class="sub-menu-wrap2" id="subMenu2">
+                        <div class="sub-menu">
+                            <div class="about-members-menu">
+                                <a href="members/members_current.html">Current Members</a>
+                                <a href="members/members_exec.html">Executive Board</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <li class="hideOnMobile"><a href="memories.html" class="nav-links">Memories</a></li>
+
+                    <li class="hideOnMobile"><a href="newsletters/newsletters.html" class="nav-links">Newsletters</a></li>
+
+                    <li class="hideOnMobile"><a href="contacts.html" class="nav-links">Contact</a></li>
+
+                    <li class="menu-button" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+          
             </nav>
         </header>
 
@@ -63,6 +119,38 @@
                 <p class="footer-text">Iota Lambda, University of North Carolina at Chapel Hill</p>
             </div>
         </footer>
+
+        <script>
+
+            function showSidebar() {
+      
+                const sidebar = document.querySelector('.sidebar')
+      
+                sidebar.style.display = 'flex'
+      
+            }
+      
+            function hideSidebar() {
+      
+                const sidebar = document.querySelector('.sidebar')
+      
+                sidebar.style.display = 'none'
+      
+            }
+
+            let subMenu1 = document.getElementById("subMenu1");
+
+            function toggleMenu1(){
+                subMenu1.classList.toggle("open-menu");
+            }
+
+            let subMenu2 = document.getElementById("subMenu2");
+
+            function toggleMenu2(){
+                subMenu2.classList.toggle("open-menu");
+            }
+      
+        </script>
 
     </body>
     
