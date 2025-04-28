@@ -36,7 +36,15 @@ h1 {
     padding: 8px;
 }
 
-.fall-2024 {
+.fall-2024-box:hover {
+    background-color: #82A6C9;
+}
+
+a:focus .fall-2024-box{
+    background-color: #82A6C9;
+}
+
+.fall-24 {
     color: white;
     text-decoration: none;
 }

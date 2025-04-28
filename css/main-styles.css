@@ -164,6 +164,14 @@ footer {
   border-radius: 50%;
 }
 
+a:focus .footer-icons {
+  background-color: #004990;
+}
+
+a:hover .footer-icons {
+  background-color: #004990;
+}
+
 @media screen and (min-width: 800px) {
   .footer-text {
     font-size: 15px;
