@@ -1,9 +1,11 @@
+
 .main {
     gap: 1rem;
 }
 
 .listserv-link {
     color: black;
+    cursor: pointer;
 }
 
 .listserv {

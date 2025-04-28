@@ -1,0 +1,268 @@
+.grid-container-curr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px repeat(7, 130px 50px);
+    grid-gap: 15px;
+    grid-template-areas:
+        "title title"
+        "bec tygia"
+        "bec_d tygia_d"
+        "sarah allison"
+        "sarah_d allison_d"
+        "j kellie"
+        "j_d kellie_d"
+        "jazmin olivia"
+        "jazmin_d olivia_d"
+        "nathaly nate"
+        "nathaly_d nate_d"
+        "garrett isha"
+        "garrett_d isha_d"
+        "megan katie"
+        "megan_d katie_d"
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+
+.bec {
+    grid-area: bec;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.bec_d {
+    grid-area: bec_d;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+}
+
+.tygia {
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-area: tygia;
+}
+
+.tygia_d {
+    grid-area: tygia_d;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;  
+    line-height: .8;
+    margin: 5px 0;
+}
+
+.sarah {
+    grid-area: sarah;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.sarah_d {
+    grid-area: sarah_d;
+    grid-row: 5/6;
+    grid-column: 1/2;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.allison {
+    grid-area: allison; 
+    grid-row: 4/5;
+    grid-column: 2/3;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.allison_d {
+    grid-area: allison_d;
+    grid-row: 5/6;
+    grid-column: 2/3;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.j {
+    grid-area: j;
+    grid-row: 6/7;
+    grid-column: 1/2;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.j_d {
+    grid-area: j_d;
+    grid-row: 7/8;
+    grid-column: 1/2;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.kellie {
+    grid-area: kellie;
+    grid-row: 6/7;
+    grid-column: 2/3;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.kellie_d {
+    grid-area: kellie_d;
+    grid-row: 7/8;
+    grid-column: 2/3;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.jazmin {
+    grid-area: jazmin;
+    grid-row: 8/9;
+    grid-column: 1/2;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.jazmin_d {
+    grid-area: jazmin_d;
+    grid-row: 9/10;
+    grid-column: 1/2;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.olivia {
+    grid-area: olivia;
+    grid-row: 8/9;
+    grid-column: 2/3;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;   
+}
+
+.olivia_d {
+    grid-area: olivia_d;
+    grid-row: 9/10;
+    grid-column: 2/3;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.nathaly {
+    grid-area: nathaly;
+    grid-row: 10/11;
+    grid-column: 1/2;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;   
+}
+
+.nathaly_d {
+    grid-area: nathaly_d;
+    grid-row: 11/12;
+    grid-column: 1/2;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.nate {
+    grid-area: nate;
+    grid-row: 10/11;
+    grid-column: 2/3;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.nate_d {
+    grid-area: nate_d;
+    grid-row: 11/12;
+    grid-column: 2/3;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.garrett {
+    grid-area: garrett;
+    grid-row: 12/13;
+    grid-column: 1/2;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.garrett_d {
+    grid-area: garrett_d;
+    grid-row: 13/14;
+    grid-column: 1/2;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.isha {
+    grid-area: isha;
+    grid-row: 12/13;
+    grid-column: 2/3;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.isha_d {
+    grid-area: isha;
+    grid-row: 13/14;
+    grid-column: 2/3;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.megan {
+    grid-area: megan;
+    grid-row: 14/15;
+    grid-column: 1/2;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.megan_d {
+    grid-area: megan_d;
+    grid-row: 15/16;
+    grid-column: 1/2;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.katie {
+    grid-area: katie;
+    grid-row: 14/15;
+    grid-column: 2/3;
+    object-fit: cover;
+    width: 100%;
+    max-height: 130px;
+}
+
+.katie_d {
+    grid-area: katie_d;
+    grid-row: 15/16;
+    grid-column: 2/3;
+    text-align: center;
+    line-height: 1.5;
+}
