@@ -43,6 +43,9 @@ h1 {
 
 @media screen and (min-width: 768px) {
     .main-page {
+        width: 75%;
+        margin-top: 45px;
+        margin-bottom: 100px;
         display: grid;
         gap: 10%;
         grid-template-areas:
