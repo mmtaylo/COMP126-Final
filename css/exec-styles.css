@@ -1,0 +1,164 @@
+.grid-container-exec {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px repeat(3, 240px 190px) repeat(3, 170px 100px);
+    grid-gap: 15px;
+    grid-template-areas:
+        "title title"
+        "kellie kellie"
+        "kellie_d kellie_d"
+        "nathaly nathaly"
+        "nathaly_d nathaly_d"
+        "allison allison"
+        "allison_d allison_d"
+        "jazmin adrianna"
+        "jazmin_d adrianna_d"
+        "megan olivia"
+        "megan_d olivia_d"
+        "kristelle katie"
+        "kristelle_d katie_d"
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.kellie {
+    grid-area: kellie;
+    object-fit: cover;
+    width: 80%;
+    max-height: 240px;
+    margin: 0 auto;
+}
+
+.kellie_d {
+    grid-area: kellie_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+}
+
+.nathaly {
+    grid-area: nathaly;
+    object-fit: cover;
+    width: 80%;
+    max-height: 240px;
+    margin: 0 auto;
+}
+
+.nathaly_d {
+    grid-area: nathaly_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+}
+
+.allison {
+    grid-area: allison;
+    object-fit: cover;
+    width: 80%;
+    max-height: 240px;
+    margin: 0 auto;
+}
+
+.allison_d {
+    grid-area: allison_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+}
+
+.jazmin {
+    grid-area: jazmin;
+    object-fit: cover;
+    width: 100%;
+    max-height: 170px;
+    margin: 0 auto;
+}
+
+.jazmin_d {
+    grid-area: jazmin_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+    padding-top: 5px;
+}
+
+.adrianna {
+    grid-area: adrianna;
+    object-fit: cover;
+    width: 100%;
+    max-height: 170px;
+    margin: 0 auto;
+}
+
+.adrianna_d {
+    grid-area: adrianna_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+}
+
+.megan {
+    grid-area: megan;
+    object-fit: cover;
+    width: 100%;
+    max-height: 170px;
+    margin: 0 auto;
+}
+
+.megan_d {
+    grid-area: megan_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+}
+
+.olivia {
+    grid-area: olivia;
+    object-fit: cover;
+    width: 100%;
+    max-height: 170px;
+    margin: 0 auto;
+}
+
+.olivia_d {
+    grid-area: olivia_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+    padding-top: 5px;
+}
+
+.kristelle {
+    grid-area: kristelle;
+    object-fit: cover;
+    width: 100%;
+    max-height: 170px;
+    margin: 0 auto;
+}
+
+.kristelle_d {
+    grid-area: kristelle_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+}
+
+.katie {
+    grid-area: katie;
+    object-fit: cover;
+    width: 100%;
+    max-height: 170px;
+    margin: 0 auto;
+}
+
+.katie_d {
+    grid-area: katie_d;
+    text-align: center;
+    line-height: .8;
+    margin: 5px 0;
+}
