@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px repeat(7, 130px 50px);
+    grid-template-rows: 100px repeat(7, 170px 100px);
     grid-gap: 15px;
     grid-template-areas:
         "title title"
@@ -33,7 +33,7 @@
     grid-column: 1/2;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .bec_d {
@@ -48,7 +48,7 @@
 .tygia {
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
     grid-row: 2/3;
     grid-column: 2/3;
     grid-area: tygia;
@@ -67,7 +67,7 @@
     grid-area: sarah;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
     grid-row: 4/5;
     grid-column: 1/2;
 }
@@ -77,7 +77,8 @@
     grid-row: 5/6;
     grid-column: 1/2;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .allison {
@@ -86,7 +87,7 @@
     grid-column: 2/3;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .allison_d {
@@ -94,7 +95,8 @@
     grid-row: 5/6;
     grid-column: 2/3;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .j {
@@ -103,7 +105,7 @@
     grid-column: 1/2;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .j_d {
@@ -111,7 +113,8 @@
     grid-row: 7/8;
     grid-column: 1/2;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .kellie {
@@ -120,7 +123,7 @@
     grid-column: 2/3;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .kellie_d {
@@ -128,7 +131,8 @@
     grid-row: 7/8;
     grid-column: 2/3;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .jazmin {
@@ -137,7 +141,7 @@
     grid-column: 1/2;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .jazmin_d {
@@ -145,7 +149,8 @@
     grid-row: 9/10;
     grid-column: 1/2;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .olivia {
@@ -154,7 +159,7 @@
     grid-column: 2/3;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;   
+    max-height: 170px;   
 }
 
 .olivia_d {
@@ -162,7 +167,8 @@
     grid-row: 9/10;
     grid-column: 2/3;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .nathaly {
@@ -171,7 +177,7 @@
     grid-column: 1/2;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;   
+    max-height: 170px;   
 }
 
 .nathaly_d {
@@ -179,7 +185,8 @@
     grid-row: 11/12;
     grid-column: 1/2;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .nate {
@@ -188,7 +195,7 @@
     grid-column: 2/3;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .nate_d {
@@ -196,7 +203,8 @@
     grid-row: 11/12;
     grid-column: 2/3;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .garrett {
@@ -205,7 +213,7 @@
     grid-column: 1/2;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .garrett_d {
@@ -213,7 +221,8 @@
     grid-row: 13/14;
     grid-column: 1/2;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .isha {
@@ -222,7 +231,7 @@
     grid-column: 2/3;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .isha_d {
@@ -230,7 +239,8 @@
     grid-row: 13/14;
     grid-column: 2/3;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .megan {
@@ -239,7 +249,7 @@
     grid-column: 1/2;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .megan_d {
@@ -247,7 +257,8 @@
     grid-row: 15/16;
     grid-column: 1/2;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
 }
 
 .katie {
@@ -256,7 +267,7 @@
     grid-column: 2/3;
     object-fit: cover;
     width: 100%;
-    max-height: 130px;
+    max-height: 170px;
 }
 
 .katie_d {
@@ -264,5 +275,172 @@
     grid-row: 15/16;
     grid-column: 2/3;
     text-align: center;
-    line-height: 1.5;
+    line-height: .8;
+    margin: 5px 0;
+}
+
+@media screen and (min-width: 750px) {
+    .grid-container-curr {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px repeat(5, 240px 100px);
+        grid-gap: 15px;
+        grid-template-areas:
+            "title title title"
+            "bec tygia sarah"
+            "bec_d tygia_d sarah_d"
+            "allison j kellie"
+            "allison_d j_d kellie_d"
+            "jazmin olivia nathaly"
+            "jazmin_d olivia_d nathaly_d"
+            "nate garrett isha"
+            "nate_d garrett_d isha_d"
+            "megan katie"
+            "megan_d katie_d"
+    }
+
+    .bec {
+        max-height: 240px;
+    }
+
+    .tygia {
+        max-height: 240px;
+    }
+
+    .title {
+        grid-column: 1/4;
+        justify-content: center;
+    }
+
+    .sarah {
+        grid-row: 2/3;
+        grid-column: 3/4;
+        max-height: 240px;
+    }
+
+    .sarah_d {
+        grid-row: 3/4;
+        grid-column: 3/4;
+    }
+
+    .allison {
+        grid-row: 4/5;
+        grid-column: 1/2;
+        max-height: 240px;
+    }
+
+    .allison_d {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .j {
+        grid-row: 4/5;
+        grid-column: 2/3;
+        max-height: 240px;
+    }
+
+    .j_d {
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    .kellie {
+        grid-row: 4/5;
+        grid-column: 3/4;
+        max-height: 240px;
+    }
+
+    .kellie_d {
+        grid-row: 5/6;
+        grid-column: 3/4;
+        max-height: 240px;
+    }
+
+    .jazmin {
+        grid-row: 6/7;
+        grid-column: 1/2;
+        max-height: 240px;
+    }
+
+    .jazmin_d {
+        grid-row: 7/8;
+        grid-column: 1/2;
+    }
+
+    .olivia {
+        grid-row: 6/7;
+        grid-column: 2/3;
+        max-height: 240px;
+    }
+
+    .olivia_d {
+        grid-row: 7/8;
+        grid-column: 2/3;
+    }
+
+    .nathaly {
+        grid-row: 6/7;
+        grid-column: 3/4;
+        max-height: 240px;
+    }
+
+    .nathaly_d {
+        grid-row: 7/8;
+        grid-column: 3/4;
+    }
+
+    .nate {
+        grid-row: 8/9;
+        grid-column: 1/2;
+        max-height: 240px;
+    }
+
+    .nate_d {
+        grid-row: 9/10;
+        grid-column: 1/2;
+    }
+
+    .garrett {
+        grid-row: 8/9;
+        grid-column: 2/3;
+        max-height: 240px;
+    }
+
+    .garrett_d {
+        grid-row: 9/10;
+        grid-column: 2/3;
+    }
+
+    .isha {
+        grid-row: 8/9;
+        grid-column: 3/4;
+        max-height: 240px;
+    }
+
+    .isha_d {
+        grid-row: 9/10;
+        grid-column: 3/4;
+    }
+
+    .megan {
+        grid-row: 10/11;
+        grid-column: 1/2;
+        max-height: 240px;
+    }
+
+    .megan_d {
+        grid-row: 11/12;
+        grid-column: 1/2;
+    }
+
+    .katie {
+        grid-row: 10/11;
+        grid-column: 2/3;
+        max-height: 240px;
+    }
+
+    .katie_d {
+        grid-row: 11/12;
+        grid-column: 2/3;
+    }
 }
