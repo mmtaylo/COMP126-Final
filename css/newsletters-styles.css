@@ -48,32 +48,6 @@ h1 {
     gap: 1rem;
 }
 
-.archive {
-    margin: 0 auto;
-}
-
-.fall-2024-box {
-    display: flex;
-    justify-content: center;
-    background-color: #004990;
-    border-radius: 0.5rem;
-    padding: 8px;
-}
-
-.fall-2024-box:hover {
-    background-color: #82A6C9;
-}
-
-.fall-2024-box:focus {
-    background-color: #82A6C9;
-    z-index: 0;
-}
-
-.fall-24 {
-    color: white;
-    text-decoration: none;
-}
-
 @media screen and (min-width: 768px) {
     .main-page {
         width: 100%;
@@ -102,11 +76,6 @@ h1 {
     .main-listserv {
         grid-area: listserv;
         padding-top: 20%;
-        z-index: 0;
-    }
-
-    .archive {
-        grid-area: archive;
         z-index: 0;
     }
 
