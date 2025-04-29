@@ -6,8 +6,8 @@
     grid-gap: 15px;
     grid-template-areas:
         "title title"
-        "bec tygia"
-        "bec_d tygia_d"
+        "anneke adrianna"
+        "anneke_d adrianna_d"
         "sarah allison"
         "sarah_d allison_d"
         "j kellie"
@@ -27,8 +27,8 @@
     text-align: center;
 }
 
-.bec {
-    grid-area: bec;
+.anneke {
+    grid-area: anneke;
     grid-row: 2/3;
     grid-column: 1/2;
     object-fit: cover;
@@ -36,8 +36,8 @@
     max-height: 170px;
 }
 
-.bec_d {
-    grid-area: bec_d;
+.anneke_d {
+    grid-area: anneke_d;
     grid-row: 3/4;
     grid-column: 1/2;
     text-align: center;
@@ -45,17 +45,17 @@
     margin: 5px 0;
 }
 
-.tygia {
+.adrianna {
     object-fit: cover;
     width: 100%;
     max-height: 170px;
     grid-row: 2/3;
     grid-column: 2/3;
-    grid-area: tygia;
+    grid-area: adrianna;
 }
 
-.tygia_d {
-    grid-area: tygia_d;
+.adrianna_d {
+    grid-area: adrianna_d;
     grid-row: 3/4;
     grid-column: 2/3;
     text-align: center;  
@@ -286,8 +286,8 @@
         grid-gap: 15px;
         grid-template-areas:
             "title title title"
-            "bec tygia sarah"
-            "bec_d tygia_d sarah_d"
+            "anneke adrianna sarah"
+            "anneke_d adrianna_d sarah_d"
             "allison j kellie"
             "allison_d j_d kellie_d"
             "jazmin olivia nathaly"
@@ -298,11 +298,11 @@
             "megan_d katie_d"
     }
 
-    .bec {
+    .anneke {
         max-height: 240px;
     }
 
-    .tygia {
+    .adrianna {
         max-height: 240px;
     }
 
