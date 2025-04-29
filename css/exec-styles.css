@@ -29,9 +29,8 @@
 .kellie {
     grid-area: kellie;
     object-fit: cover;
-    width: 80%;
+    width: 100%;
     max-height: 240px;
-    margin: 0 auto;
 }
 
 .kellie_d {
@@ -44,9 +43,9 @@
 .nathaly {
     grid-area: nathaly;
     object-fit: cover;
-    width: 80%;
+    width: 100%;
     max-height: 240px;
-    margin: 0 auto;
+
 }
 
 .nathaly_d {
@@ -59,9 +58,8 @@
 .allison {
     grid-area: allison;
     object-fit: cover;
-    width: 80%;
+    width: 100%;
     max-height: 240px;
-    margin: 0 auto;
 }
 
 .allison_d {
@@ -76,7 +74,6 @@
     object-fit: cover;
     width: 100%;
     max-height: 170px;
-    margin: 0 auto;
 }
 
 .jazmin_d {
@@ -92,7 +89,6 @@
     object-fit: cover;
     width: 100%;
     max-height: 170px;
-    margin: 0 auto;
 }
 
 .adrianna_d {
@@ -107,7 +103,6 @@
     object-fit: cover;
     width: 100%;
     max-height: 170px;
-    margin: 0 auto;
 }
 
 .megan_d {
@@ -122,7 +117,6 @@
     object-fit: cover;
     width: 100%;
     max-height: 170px;
-    margin: 0 auto;
 }
 
 .olivia_d {
@@ -138,7 +132,6 @@
     object-fit: cover;
     width: 100%;
     max-height: 170px;
-    margin: 0 auto;
 }
 
 .kristelle_d {
@@ -153,7 +146,6 @@
     object-fit: cover;
     width: 100%;
     max-height: 170px;
-    margin: 0 auto;
 }
 
 .katie_d {
